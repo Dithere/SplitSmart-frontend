@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { DollarSign, Users, TrendingUp, TrendingDown, Plus, Menu, X, Bell, Activity, BarChart3, Settings, LogOut, Search, UserPlus, ChevronRight, AlertCircle, CheckCircle, Clock, Wallet } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = 'https://splitsmart-backend-iay2.onrender.com/';
 
 // Auth Context
 const AuthContext = React.createContext(null);
